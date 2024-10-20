@@ -170,13 +170,13 @@ body {
 .blogCotainer {
   overflow-y: auto;
   height: 80vh;
-  margin-left: 5vh;
+  margin-left: 5%;
 }
 
 .blog {
-  margin-left: 25vh;
-  margin-top: 10vh;
-  margin-right: 5vh;
+  
+  margin-top: 16%;
+  margin-right: 2%;
   margin-bottom: 5vh;
 }
 
@@ -243,12 +243,12 @@ body {
 }
 
 .main_con {
-  padding: 5vh;
+  padding: 0px;
 }
 
 .contactForm {
   max-width: 500px;
-  margin: 13px auto;
+  margin: 70px auto;
   padding: 20px;
   background-color: #f9f9f9;
   border: 1px solid #ccc;
@@ -275,7 +275,7 @@ body {
 
 .contactForm input,
 .contactForm textarea {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -293,6 +293,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
+ 
 }
 
 .contactForm input[type="submit"]:hover {
@@ -373,9 +374,11 @@ body {
   color: #ffffff;
   padding: 10px 20px;
   border-radius: 5px;
+  margin-left: 19%;
+  margin-right: 19%;
   cursor: pointer;
   align-items: center;
-  margin-left: 27vh;
+  
 }
 
 .send-button:hover {
