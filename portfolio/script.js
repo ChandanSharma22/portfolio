@@ -19,3 +19,18 @@ document.querySelector('.hamburger').addEventListener("click", () => {
        
     }
 });*/
+
+
+
+const MongoClient = require('mongodb').MongoClient;
+MongoClient.connect('mongodb://localhost:27017/', (err, client) => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    console.log('Connected to MongoDB server');
+  
+    // Use the client to interact with your database
+    const db = client.db();
+    // ...
+  });

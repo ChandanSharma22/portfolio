@@ -1,0 +1,210 @@
+%-------------------------
+% Resume Template in LaTeX
+% Author: Chandan Sharma
+% License: MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.5in}
+
+% URL style
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING (Centered)-----------------
+\begin{center}
+  \textbf{\LARGE Chandan Sharma} \\
+  \vspace{0.3cm} % Space below the name
+  \begin{tabular}{c c c c}
+    Email: {chandansharma9008@gmail.com} &
+    \hspace{1cm} % Adjust gap between items
+    \href{https://www.linkedin.com/in/chandan-sharma-2807262a4/}{LinkedIn} &
+    \hspace{1cm} % Adjust gap between items
+    \href{https://github.com/ChandanSharma22}{GitHub} &
+    \hspace{1cm} % Adjust gap between items
+    Mobile: +91-9082171497 \\
+  \end{tabular}
+\end{center}
+
+%-----------PROFILE-----------------
+\section{Profile}
+\resumeItem{}{I'm an enthusiastic and forward-thinking young man, dedicated to achieving success in my chosen field. With a readiness to explore new opportunities and embrace them with zeal, I'm prepared to develop my abilities as a supportive team member.}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Guru Nanak Khalsa College}{Matunga, Mumbai}
+      {Bachelor of Science, Information Technology (GPA: 7.5/10)}{Sept 2021 -- May 2024}
+      
+    \resumeSubheading
+      {S.I.W.S Jr College}{Wadala, Mumbai}
+      {Commerce; Maharashtra Board (81\%)}{May 2019 -- Sept 2021}
+  \resumeSubHeadingListEnd
+  \vspace{0.5cm} % Additional space after Education section
+
+%--------PROGRAMMING SKILLS------------
+    \section{Programming Skills}
+ \resumeSubHeadingListStart
+    \resumeSubItem{}{ 
+      \textbf{Languages}{: Python, Java, MongoDB, SQL, HTML, CSS}
+    }
+    \resumeSubItem{}{
+      \textbf{Technologies}{: AWS, Android Studio, Visual Studio, Kali Linux, Cisco}
+    }
+  \resumeSubHeadingListEnd
+  \vspace{0.5cm} % Additional space after Programming Skills section
+
+  %-----------LANGUAGES-----------------
+\section{Languages}
+ \resumeSubHeadingListStart
+    \resumeSubItem{}{ 
+      \textbf{Hindi}{: Fluent}
+    }
+    \resumeSubItem{}{
+      \textbf{English}{: Fluent}
+    }
+    \resumeSubItem{}{
+      \textbf{Marathi}{: Fluent}
+    }
+  \resumeSubHeadingListEnd
+ 
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://github.com/ChandanSharma22/WhatsApp}{WhatsApp Clone (Android Application)}}{}{}{}
+      \resumeItemListStart
+        \resumeItem{Description:}
+          {Developed a fully functional messaging app simulating core features of WhatsApp.}
+        \resumeItem{Key Features:}
+          {Implemented real-time messaging, user authentication, and profile management using Firebase Authentication and Firebase Realtime Database.}
+        \resumeItem{Additional Features:}
+          {Integrated multimedia sharing (images, videos) using Firebase Cloud Storage.}
+        \resumeItem{Technologies Used:}
+          {Java, XML, Firebase Authentication, Firebase Realtime Database, Firebase Cloud Storage, Android Studio, Git.}
+      \resumeItemListEnd
+      \hspace{1cm}
+
+    \resumeSubheading
+      {\href{https://github.com/ChandanSharma22/portfolio}{Portfolio Website}}{}{}{}
+      \resumeItemListStart
+        \resumeItem{Description:}
+          {Designed and developed a personal portfolio website to showcase skills, projects, and work experience.}
+        \resumeItem{Key Features:}
+          {Responsive web design optimized for desktop and mobile devices, integrated with GitHub for project display.}
+        \resumeItem{Additional Features:}
+          {Implemented contact form with email notifications, animated sections, and smooth scrolling for enhanced user experience.}
+        \resumeItem{Technologies Used:}
+          {HTML, CSS, JavaScript, Bootstrap, GitHub Pages.}
+      \resumeItemListEnd
+      \hspace{1cm}
+
+    \resumeSubheading
+      {\href{https://github.com/ChandanSharma22/todo-app}{To-Do List App (Android Application)}}{}{}{}
+      \resumeItemListStart
+        \resumeItem{Description:}
+          {Built a simple and intuitive to-do list app to help users manage daily tasks efficiently.}
+        \resumeItem{Key Features:}
+          {Added features like task creation, editing, deletion, and task completion tracking.}
+        \resumeItem{Additional Features:}
+          {Integrated reminder notifications for important tasks and task filtering based on priority.}
+        \resumeItem{Technologies Used:}
+          {Java, XML, SQLite, Android Studio.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  \vspace{0.5cm} % Additional space after Projects section
+
+%-----------CERTIFICATIONS-----------------
+\section{Certifications}
+ \resumeSubHeadingListStart
+    \resumeSubItem{}{
+      \textbf{Introduction to Cybersecurity and Digital Safety} by IQAC\hfill March 2023
+    }
+    \resumeSubItem{}{
+      \textbf{AWS Certified Cloud Practitioner} \hfill March 2024
+    }
+    \resumeSubItem{}{
+      \textbf{Introduction to Data Analysis using Microsoft Excel} by Coursera  \hfill July 2024
+    }
+  \resumeSubHeadingListEnd
+  \vspace{0.5cm} % Additional space after Certifications section
+
+%-----------EXTRACURRICULAR ACTIVITIES------------
+\section{Extracurricular Activities}
+ \resumeSubHeadingListStart
+    \resumeSubItem{}{
+      \textbf{NSS Volunteer} - National Service Scheme (2023 - 2024)
+    }
+    \resumeSubItem{}{
+      Participated in community service activities including:
+      \resumeItemListStart
+        \resumeItem{Blood Donation Drives}{Organized and participated in multiple blood donation camps to support local hospitals.}
+        \resumeItem{Environmental Awareness Campaigns}{Conducted tree plantation drives and cleanliness drives in local communities.}
+        \resumeItem{Health Camps}{Assisted in organizing free health check-up camps for underprivileged communities.}
+      \resumeItemListEnd
+    }
+ \resumeSubHeadingListEnd
+
+\end{document}
